@@ -1,27 +1,35 @@
-# Embedded-Deep-Learning-on-RaspberryPi4
-This Branch of repository is build live during course creation and commits are source students to reference the development .
+# Deep learning using Tensorflow Lite on Raspberry Pi
 
-### Projects
-- **Project 1 : Sin Function Approximation**
-    - Notebooks : Contains Python Notebooks for model training on Colab.
-- **Project 2 : Visual Calculator**
-    - **Notebooks** : Contains Python Notebooks for model .training on Colab
-    - **Scripts** : Step Wise python Scripts for Model Testing and Implementation.
-    - **Data** : Custom Data for printing and Video Recording.
-- **Project 3 : Audio Led Control**
-    - **Notebooks** : Contains Python Notebooks for model training on Colab.
-    - **Scripts** : Step Wise python Scripts for Model Testing and Implementation.
-    - **Data** : Pre Trained model for inferencing.
-### System Requirments
-- PC   : Ubuntu 22.04
-- RPI4 : RPI Full OS
-    - SD-CARD 16GB
-    - RPI Camera V2
-    - Power Bank with Type C cable
-    - 3D printed Parts for Camera Holding
-    - Fan on RPI for better thermals
+![alt text](https://github.com/jaafarsaf7/Embedded-Deep-Learning-on-RaspberryPi4/blob/main/IMG_1619.png)
 
-### Installations
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#About-this-Repository">About This Repository</a></li>
+    <li><a href="#Features">Features</a></li>
+    <li><a href="#Installations">Installations</a></li>
+    <li><a href="#Using-this-Repository">Using this Repository</a></li>
+    <li><a href="#Pre-Course Requirments">Pre-Course Requirments</a></li>
+  </ol>
+</details>
+
+
+## About this Repository
+This course is focused on Embedded Deep learning in Python . Raspberry PI 4 is utilized as a main hardware and we will be building practical projects with custom data .
+
+- Calculator that takes images as input and builds up an equation and produces a result. This Computer vision based project is going to be using convolution network architecture for Categorical classification
+
+- Unique learning point in this project is Post Quantization applied on Tensor flow models trained on Google Colab. Reducing size of models to 3 times and increasing inferencing speed up to 0.024 sec per input .
+
+Note: This repo contains step by step approach to work on this project.
+
+---
+## Features
+- 
+- **Visual Calculator Equation Solving**
+    - ![alt text](https://github.com/jaafarsaf7/Embedded-Deep-Learning-on-RaspberryPi4/blob/main/video5336138887.mp4)
+---
+## Installations
 - Laptop/PC Installations
     - Rpi-Imager for installing RPI OS on SD CARD
         ```
@@ -64,11 +72,11 @@ This Branch of repository is build live during course creation and commits are s
         sudo apt-get install libportaudio2
         pip install scipy
         ```
-
+----
 ## Using Repository
 - Obtain the code using Git
     ```
-    git clone https://github.com/Zaheer505/Tiny-ML --single-branch development
+    
     ```
 - SSH into your RPI
     ```
@@ -79,3 +87,17 @@ This Branch of repository is build live during course creation and commits are s
     tightvncserver :1
     ```
 - Access RPI through VNC-Viwer on PC
+---
+## Pre-Course Requirments
+- PC   : Ubuntu 22.04
+- RPI4 : RPI Full OS
+    - SD-CARD 16GB
+    - RPI Camera V2
+    - Power Bank with Type C cable
+    - 3D printed Parts for Camera Holding
+    - Fan on RPI for better thermals
+
+----
+
+
+## Jaafar Safar
