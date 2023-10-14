@@ -14,7 +14,8 @@ Dive into Embedded Deep Learning using Python with Raspberry Pi 4. Here, we're b
 
 ---
 ## Features
-- 
+-
+- **Real-Time Number Detection**
 - **Visual Calculator Equation Solving**
 - 
     - <img src="https://github.com/jaafarsaf7/Embedded-Deep-Learning-on-RaspberryPi4/blob/main/ezgif.com-video-to-gif.gif" width="1000" height="600">
