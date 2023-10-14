@@ -1,33 +1,24 @@
 # Deep learning using Tensorflow Lite on Raspberry Pi
 
-![alt text](https://github.com/jaafarsaf7/Embedded-Deep-Learning-on-RaspberryPi4/blob/main/IMG_1619.png)
-
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#About-this-Repository">About This Repository</a></li>
-    <li><a href="#Features">Features</a></li>
-    <li><a href="#Installations">Installations</a></li>
-    <li><a href="#Using-this-Repository">Using this Repository</a></li>
-    <li><a href="#Pre-Course Requirments">Pre-Course Requirments</a></li>
-  </ol>
-</details>
+![alt text](https://github.com/jaafarsaf7/Embedded-Deep-Learning-on-RaspberryPi4/blob/main/IMG_1619.jpeg)
 
 
-## About this Repository
-This course is focused on Embedded Deep learning in Python . Raspberry PI 4 is utilized as a main hardware and we will be building practical projects with custom data .
+# About this Repository
+Dive into Embedded Deep Learning using Python with Raspberry Pi 4. Here, we're building a unique Computer Vision project using custom data. Specifically:
+- A calculator that processes images, forms equations, and provides results. It's crafted using a convolution network architecture, ideal for categorical classification.
 
-- Calculator that takes images as input and builds up an equation and produces a result. This Computer vision based project is going to be using convolution network architecture for Categorical classification
+- Learn about Post Quantization on TensorFlow models. The model is trained on Google Colab and is optimized — it's 3 times smaller with an inference speed of just 0.024 seconds per input.
 
-- Unique learning point in this project is Post Quantization applied on Tensor flow models trained on Google Colab. Reducing size of models to 3 times and increasing inferencing speed up to 0.024 sec per input .
+**Note**: This repository is your guide, detailing each step of the project.
 
-Note: This repo contains step by step approach to work on this project.
 
 ---
 ## Features
 - 
 - **Visual Calculator Equation Solving**
-    - ![alt text](https://github.com/jaafarsaf7/Embedded-Deep-Learning-on-RaspberryPi4/blob/main/video5336138887.mp4)
+- 
+    - <img src="https://github.com/jaafarsaf7/Embedded-Deep-Learning-on-RaspberryPi4/blob/main/ezgif.com-video-to-gif.gif" width="1000" height="600">
+    
 ---
 ## Installations
 - Laptop/PC Installations
@@ -41,7 +32,7 @@ Note: This repo contains step by step approach to work on this project.
         ```
 
 - Raspberry PI 4 installations
-    - Tensorflow Lite Interpreter
+    - TensorFlow Lite Interpreter
         ```
         python3 -m pip install tflite-runtime
         ```
@@ -66,23 +57,18 @@ Note: This repo contains step by step approach to work on this project.
         ```
         pip install -U numpy
         ```
-    - Audio processing Dependencies
-        ```
-        pip install sounddevice
-        sudo apt-get install libportaudio2
-        pip install scipy
-        ```
+
 ----
 ## Using Repository
 - Obtain the code using Git
     ```
-    
+    git clone --single-branch --branch Development https://github.com/jaafarsaf7/Embedded-Deep-Learning-on-RaspberryPi4.git
     ```
 - SSH into your RPI
     ```
     ssh pi@<IP_of_RPI>
     ```
-- Turn on the Tightvnc Server to enable screen sharing
+- Turn on the TightVNC Server to enable screen sharing
     ```
     tightvncserver :1
     ```
@@ -100,4 +86,5 @@ Note: This repo contains step by step approach to work on this project.
 ----
 
 
-## Jaafar Safar
+
+  ## Jaafar Safar
