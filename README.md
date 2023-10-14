@@ -2,8 +2,8 @@
 
 ### Project
 - **Visual Calculator**
-    - **Notebooks** : Contains Python Notebooks for model .training on Colab
-    - **Scripts** : python Scripts for Model Testing and Implementation.
+    - **Notebooks** : Contains Python Notebooks for model training on Colab
+    - **Scripts** : Python scripts for Model Testing and Implementation.
     - **Data** : Custom Data for printing and Video Recording.
 
 ### System Requirments
@@ -31,7 +31,7 @@
         ```
         python3 -m pip install tflite-runtime
         ```
-    - Install tightvnc server
+    - Install TightVNC server
         ```
         sudo apt-get install tightvncserver
         ```
@@ -52,23 +52,17 @@
         ```
         pip install -U numpy
         ```
-    - Audio processing Dependencies
-        ```
-        pip install sounddevice
-        sudo apt-get install libportaudio2
-        pip install scipy
-        ```
-
+        
 ## Using Repository
 - Obtain the code using Git
     ```
-    git clone https://github.com/Zaheer505/Tiny-ML --single-branch development
+    git clone --single-branch --branch Development https://github.com/jaafarsaf7/Embedded-Deep-Learning-on-RaspberryPi4.git
     ```
 - SSH into your RPI
     ```
     ssh pi@<IP_of_RPI>
     ```
-- Turn on the Tightvnc Server to enable screen sharing
+- Turn on the TightVNC Server to enable screen sharing
     ```
     tightvncserver :1
     ```
