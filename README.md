@@ -9,7 +9,7 @@ Dive into Embedded Deep Learning using Python with Raspberry Pi 4. Here, we're b
 
 - Learn about Post Quantization on TensorFlow models. The model is trained on Google Colab and is optimized — it's 3 times smaller with an inference speed of just 0.024 seconds per input.
 
-**Note**: This repository is your guide, detailing each step of the project.
+**Note**: This repository is your guide, detailing each step of the project. (the data and scripts are in the development branch)
 
 
 ---
